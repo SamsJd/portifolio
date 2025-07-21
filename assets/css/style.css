@@ -1,0 +1,11 @@
+/* Resetando as regras CSS do navegador */
+/* Isso ajuda a garantir que o estilo seja consistente entre diferentes navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-weight: 400;
+  font-family: sans-serif;
+}
