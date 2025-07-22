@@ -215,3 +215,15 @@ form button {
   font-size: 1rem;
 }
 
+#mapa {
+  width: 480px;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#endereco > p {
+  font-size: 1rem;
+  text-align: justify;
+  font-weight: 600;
+}
+
