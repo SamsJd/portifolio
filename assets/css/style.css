@@ -115,3 +115,49 @@ p {
   width: 200px;
 }
 
+#video {
+  flex-direction: column;
+  margin: 2rem auto;
+  width: 90%;
+}
+
+#footer {
+  flex-direction: column;
+  margin: 0;
+  padding: 2rem;
+  color: var(--white);
+  background-color: var(--purple-500);
+  font-weight: bold;
+  text-align: center;
+}
+
+#redes_sociais {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0 0 0;
+  width: 320px;
+}
+
+.social_icon {
+  width: 4rem;
+  height: 4rem;
+  filter: brightness(0)
+          saturate(100%)
+          invert(100%)
+          sepia(0%)
+          saturate(7457%)
+          hue-rotate(23deg)
+          brightness(95%)
+          contrast(87%);
+}
+
+.social_icon:hover {
+  filter: brightness(0)
+          saturate(100%)
+          invert(65%)
+          sepia(59%)
+          saturate(2437%)
+          hue-rotate(213deg)
+          brightness(86%)
+          contrast(88%);
+}
