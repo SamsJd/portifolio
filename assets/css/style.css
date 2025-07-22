@@ -121,9 +121,10 @@ p {
   width: 90%;
 }
 
-#footer {
+footer {
+  display: flex;  
   flex-direction: column;
-  margin: 0;
+  margin: 0 auto;
   padding: 2rem;
   color: var(--white);
   background-color: var(--purple-500);
@@ -226,4 +227,3 @@ form button {
   text-align: justify;
   font-weight: 600;
 }
-
