@@ -227,3 +227,25 @@ form button {
   text-align: justify;
   font-weight: 600;
 }
+
+#projetos {
+  flex-direction: row;
+  gap: 1rem;
+}
+
+#menu-secundario li {
+  display: inline;
+  padding: 1rem;
+}
+
+#menu-secundario li a {
+  text-decoration: none;
+  color: var(--purple-800);
+  font-size: 20px;
+}
+
+#menu-secundario li a:hover {
+  color: var(--purple-200);
+  text-decoration: underline;
+}
+
