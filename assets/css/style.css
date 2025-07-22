@@ -229,6 +229,7 @@ form button {
 }
 
 #projetos {
+  display: flex;
   flex-direction: row;
   gap: 1rem;
 }
@@ -248,4 +249,3 @@ form button {
   color: var(--purple-200);
   text-decoration: underline;
 }
-
