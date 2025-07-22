@@ -161,3 +161,57 @@ p {
           brightness(86%)
           contrast(88%);
 }
+
+#contato {
+  flex-direction: row;
+  gap: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: none;
+}
+
+form label {
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 500;
+}
+
+form input,
+textarea {
+  margin: 0.5rem 0 1rem;
+  padding: 0.5rem;
+  border-radius: 1.25rem;
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+  height: 5rem;
+}
+
+form span {
+  margin: 0 0 0.5rem 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: red;
+}
+
+form button {
+  text-align: center;
+  padding: 0.75rem 2rem;
+  background: var(--purple-800);
+  border: 1px solid var(--purple-500);
+  color: var(--white);
+  border-radius: 0.75rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
