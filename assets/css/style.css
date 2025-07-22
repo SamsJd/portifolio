@@ -99,3 +99,19 @@ p {
   color: var(--purple-200);
   text-decoration: underline;
 }
+
+#about {
+  flex-direction: column;
+  margin: 2rem auto;
+  width: 90%;
+}
+
+#conteudo {
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.img_profile {
+  width: 200px;
+}
+
