@@ -249,3 +249,15 @@ form button {
   color: var(--purple-200);
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  #contato {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form,
+  #mapa {
+    width: 90%;
+  }
+}
